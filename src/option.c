@@ -60,7 +60,7 @@ init_options(int no_config)
     }
 
     // Initialize settings
-    setting_set_value(SETTING_FILTER_METHODS, "REGISTER,INVITE,SUBSCRIBE,NOTIFY,OPTIONS,PUBLISH,MESSAGE,INFO,REFER,UPDATE");
+    setting_set_value(SETTING_FILTER_METHODS, "REGISTER,INVITE,SUBSCRIBE,NOTIFY,OPTIONS,PUBLISH,MESSAGE,INFO,REFER,UPDATE,KDMQ");
 
     // Add Call list column options
     set_option_value("cl.column0", "index");

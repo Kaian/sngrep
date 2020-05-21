@@ -54,6 +54,7 @@ sip_code_t sip_codes[] = {
     { SIP_METHOD_NOTIFY,    "NOTIFY" },
     { SIP_METHOD_OPTIONS,   "OPTIONS" },
     { SIP_METHOD_PUBLISH,   "PUBLISH" },
+    { SIP_METHOD_KDMQ,      "KDMQ" },
     { SIP_METHOD_MESSAGE,   "MESSAGE" },
     { SIP_METHOD_CANCEL,    "CANCEL" },
     { SIP_METHOD_BYE,       "BYE" },
